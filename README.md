@@ -1,15 +1,11 @@
-# Airbnb JavaScript Style Guide() {
+# InstaBrand JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Adapted from the incredible [Airbnb Style Guide](https://github.com/airbnb/javascript)
 
 Other Style Guides
- - [ES5](es5/)
- - [React](react/)
- - [CSS & Sass](https://github.com/airbnb/css)
- - [Ruby](https://github.com/airbnb/ruby)
+ - [CSS & Sass](https://github.com/instabrand/css)
 
 ## Table of Contents
 
@@ -1311,12 +1307,12 @@ Other Style Guides
 
 ## Whitespace
 
-  - [18.1](#18.1) <a name='18.1'></a> Use soft tabs set to 2 spaces.
+  - [18.1](#18.1) <a name='18.1'></a> Use soft tabs set to 4 spaces.
 
     ```javascript
     // bad
     function() {
-    ∙∙∙∙const name;
+    ∙∙const name;
     }
 
     // bad
@@ -1326,7 +1322,7 @@ Other Style Guides
 
     // good
     function() {
-    ∙∙const name;
+    ∙∙∙∙const name;
     }
     ```
 
